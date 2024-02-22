@@ -1,10 +1,18 @@
 
 :root {
     --bg-acqua: #1ABC9C;
+    --bg-dark: #2C3E50;
 }
 
-.main_header {
+header {
+    background-color: var(--bg-dark);
+    color: white;
+}
+
+.main_header,
+.about {
     background-color: var(--bg-acqua);
+
 }
 
 
