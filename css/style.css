@@ -5,7 +5,8 @@
     --bg-darkblue: #3A546D;
 }
 
-header {
+header,
+.copyright {
     background-color: var(--bg-dark);
     color: white;
 }
