@@ -2,6 +2,7 @@
 :root {
     --bg-acqua: #1ABC9C;
     --bg-dark: #2C3E50;
+    --bg-darkblue: #3A546D;
 }
 
 header {
@@ -12,8 +13,16 @@ header {
 .main_header,
 .about {
     background-color: var(--bg-acqua);
-
 }
 
+.contacts {
+    background-color: var(--bg-darkblue);
+    color: white;
+}
 
-
+/* reset */
+ul, li {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
