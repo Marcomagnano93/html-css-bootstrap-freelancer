@@ -1,0 +1,11 @@
+
+:root {
+    --bg-acqua: #1ABC9C;
+}
+
+.main_header {
+    background-color: var(--bg-acqua);
+}
+
+
+
