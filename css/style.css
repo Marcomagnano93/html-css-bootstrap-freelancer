@@ -5,25 +5,40 @@
     --bg-darkblue: #3A546D;
 }
 
+/* HEADER */
 header,
 .copyright {
     background-color: var(--bg-dark);
     color: white;
 }
 
+
+/* section main header */
 .main_header,
 .about {
     background-color: var(--bg-acqua);
+    color: white;
 }
+.avatar {
+    max-width: 240px;
+}
+
+
+
 
 .contacts {
     background-color: var(--bg-darkblue);
     color: white;
 }
 
-/* reset */
-ul, li {
-    list-style: none;
-    display: flex;
-    gap: 8px;
+.article {
+    column-count: 2;
 }
+
+.app_card {
+    padding: 30px;
+    border: 2px solid black;
+}
+
+/* reset */
+
