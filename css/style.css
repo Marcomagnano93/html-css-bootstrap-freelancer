@@ -78,10 +78,7 @@ header,
 
 
 
-.contacts {
-    background-color: var(--bg-darkblue);
-    color: white;
-}
+
 
 .article {
     column-count: 2;
@@ -90,3 +87,7 @@ header,
 
 /* style */
 
+.contacts {
+    background-color: var(--bg-darkblue);
+    color: white;
+}
