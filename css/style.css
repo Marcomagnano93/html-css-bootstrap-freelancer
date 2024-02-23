@@ -21,13 +21,23 @@ header,
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* LINE STAR */
+
 .line-l::before {
 
     content: '';
 	width: 140px;
 	height: 4px;
-	background-color: white;
-    border-radius: 25px;
 	display: flex;
 
     }
@@ -37,13 +47,21 @@ header,
     content: '';
 	width: 140px;
 	height: 4px;
-	background-color: white;
-    border-radius: 25px;
 	display: flex;
 
     }
 
-
+  .line-l.black-line,
+  .line-r.black-line {
+      background-color: black;
+      border-radius: 25px;
+  }
+  
+  .line-l.white-line,
+  .line-r.white-line {
+      background-color: white;
+      border-radius: 25px;
+  }
 
 
 
@@ -69,10 +87,6 @@ header,
     column-count: 2;
 }
 
-.app_card {
-    padding: 30px;
-    border: 2px solid black;
-}
 
-/* reset */
+/* style */
 
