@@ -19,9 +19,43 @@ header,
     background-color: var(--bg-acqua);
     color: white;
 }
-.avatar {
-    max-width: 240px;
-}
+
+
+.line-l::before {
+
+    content: '';
+	width: 140px;
+	height: 4px;
+	background-color: white;
+    border-radius: 25px;
+	display: flex;
+
+    }
+
+.line-r::after {
+
+    content: '';
+	width: 140px;
+	height: 4px;
+	background-color: white;
+    border-radius: 25px;
+	display: flex;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
