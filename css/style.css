@@ -41,8 +41,23 @@ textarea::placeholder {
     line-height: 44px;
     border-radius: 8px;
     width: 60px;
-
     
+}
+
+.link_green {
+    color: var(--bg-acqua);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social_list li {
+    border: 1px solid white;
+    border-radius: 999px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
